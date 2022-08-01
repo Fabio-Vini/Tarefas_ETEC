@@ -6,13 +6,7 @@ Repositório de sites e projetos realizados como exercícios na ETEC.
 
 # Fabio-Vini
 
-## Eai familia 👋
-Gosto de resolver problemas utilizando a programação.
-<br />
-Software Developer :computer:
 
-## Cursando Etec - 3º e ultimo módulo
-  
 
  
 ##
