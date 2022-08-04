@@ -11,31 +11,31 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
         /*Escreva um programa para ler 2 valores
-         (considere	 que não serão informados valores iguais)	
-         e escrever    o maior   deles*/
+         (considere	que nÃ£o serÃ£o informados valores iguais)	
+         e escrever o maior deles*/
 
             inicio:
             Console.WriteLine("");
             Console.WriteLine("Digite 2 valores");
 
-            Console.Write("1º valor: ");
+            Console.Write("1Âº valor: ");
             double x = double.Parse(Console.ReadLine());
 
-            Console.Write("2º valor: ");
+            Console.Write("2Âº valor: ");
             double y = double.Parse(Console.ReadLine());
 
             if(x == y)
             {
-                Console.WriteLine("Não digite valores iguais!");
+                Console.WriteLine("NÃ£o digite valores iguais!");
                 goto inicio;
             }
             else if(x > y)
             {
-                Console.WriteLine("O 1º valor é maior");
+                Console.WriteLine("O 1Âº valor Ã© maior");
             }
             else
             {
-                Console.WriteLine("O 2º valor é maior");
+                Console.WriteLine("O 2Âº valor Ã© maior");
             }
             Console.ReadKey();
         }
