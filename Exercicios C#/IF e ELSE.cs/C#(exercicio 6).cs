@@ -1,33 +1,36 @@
 using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 
-namespace ConsoleApp1
+namespace CSharp_Shell
 {
-    class Program
+
+    public static class Program 
     {
-        static void Main(string[] args)
+        public static void Main() 
         {
-            /*Escreva	 um	 programa	 que	 verifique	 a	 validade	 de	 uma	 senha	 fornecida	
-pelo	 usu·rio.	 A	 senha	 v·lida	 È	 o	 n˙mero	 1234.	Devem	 ser	impressas	 as	
-seguintes	mensagens:	
-ACESSO	PERMITIDO	caso	a	senha	seja	v·lida.	
-ACESSO	NEGADO	caso	a	senha	seja	inv·lida.*/
+		/*As ma√ß√£s custam	R$0,30 cada se forem compradas menos do que	uma	
+		d√∫zia, e R$0,25 se forem compradas pelo menos doze.Escreva um	programa que leia o	 
+		n√∫mero de ma√ß√£s compradas, calcule e escreva o valor	total	da	compra.*/
+    
+    		double menor, maior;
+    
+    		Console.WriteLine("Digite a quantidade de ma√ß√£s que quer comprar:");
+    		double qtd = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite sua senha: ");
-            int senha = int.Parse(Console.ReadLine());
+    		maior = 0.30 * qtd;
+    		menor = 0.25 * qtd;
 
-            if(senha == 1234)
-            {
-                Console.WriteLine("ACESSO PERMITIDO!");
-            }
-            else
-            {
-                Console.WriteLine("ACESSO NEGADO, SENHA INV¡LIDA");
-            }
-            Console.ReadKey();
+    		if(qtd < 12)
+    		{
+        		Console.WriteLine("Total: R$"+maior);  
+   		}
+    		else
+   		{
+        		Console.WriteLine("Total: R$"+menor);  
+    		}
+    		Console.ReadKey();
         }
     }
 }
