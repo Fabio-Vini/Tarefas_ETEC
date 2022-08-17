@@ -1,0 +1,128 @@
+#cabecalho{
+	background-color: darkblue;
+	text-align: center;
+	font-family: monospace;
+    color: white;
+}
+
+#cabecalho{
+	padding: 2px;
+	margin: 2px;
+	list-style: none;
+}
+
+#cabecalho ul li {
+	display: inline;
+}
+
+#cabecalho ul li a{
+	background-color: ;
+	color: white;
+	border-bottom: ;
+	padding: 2px 10px;
+	display: inline-block;
+	text-decoration: none;
+	
+}
+
+#cabecalho ul li a:: hover {
+	background-color: ;
+	color: ;
+	border-bottom: ;
+}
+
+    #cabecalho 
+    button {
+        padding: 15px 50px;
+        margin: 20px;
+        background: orange;
+        border: 2px solid white;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 20px;
+        cursor: pointer;
+       
+    }
+
+
+
+
+
+#corpo {
+	text-align: center;
+
+
+}
+
+.titulo{
+	 text-align: center;
+     font-size: 48px;
+     font-family: monospace;
+
+}
+
+#rodape{
+	height: 5%;
+	width: 100%;
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	font-family: monospace;
+	bottom: 0;
+  ;
+    
+
+}
+
+#Skate{
+	border: thin #darkblue solid;
+	display: flex;
+	flex-flow: column;
+	padding: 10px;
+	max-height: 500px;
+	max-width: 400px;
+	margin: auto;
+}
+
+#SkateLegenda {
+     background-color: darkblue;
+     color: white;
+     font-family: monospace;
+     font: italic;
+     padding: 3px;
+     text-align: center;
+     font-weight: bolder;
+}
+
+.paragrafo{
+	text-indent: 3em;
+	margin: 25px;
+	font-size: 20px;
+	text-align: justify;
+	}
+
+
+#teste{
+  
+  background-image: url();
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#teste_1{
+  
+  background-image: url();
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  
+
+             
+}
+
+
+
+
+
+
+
+      

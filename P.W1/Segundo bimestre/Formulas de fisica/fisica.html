@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Física - estudos</title>
+			<link rel="stylesheet" type="text/css" href="fisica.css">
+			<script type="text/javascript" src="fisica.js"></script>
+	</head>
+	<body>
+			<header>
+                <a href="#" class="btn-abrir"onclick="abrirMenu()">&#9776; Opções</a>
+                <!--<div class="titulo">
+                    <h1>Formulas de Fisíca</h1>-->
+                </div>
+                <div class="botao">
+                <a href="#container1">Velocidade Média</a>
+                <a href="#container2">Função MUV</a>
+                <a href="#container3">Torricelli</a>
+            </div>
+			</header>
+					
+			<nav id="menu">
+				 <a href="#" onclick="fecharMenu()">&times; Fechar</a>
+                 <a href="#titulo2">Fórmulas</a>
+			</nav>
+
+            <div id="instrucao">
+                <h2>Antes de qualquer ação, eu recomendo que averigue as fórmulas para não haver dúvidas durante a execução das contas.
+                Para acessar as fórmulas, basta você clicar no menu de OPÇÕES logo acima e escolher a opção "Fórmulas"</h2>
+            </div>
+
+            <div><a name="container1"></a></div>
+            <div class="container1">
+                <div class="titulo1"><h1>Velocidade Média</h1></div>
+               <div class="input1"><input type="number" name="distancia" id="distancia" placeholder="Insira o valor da distancia"></div>
+                <h2><img src="img/f1.png"></h2>
+                <input type="number" name="tempo1" id="tempo1" placeholder="Insira o valor do tempo">
+                <button type="button" name="CalcVelo" onclick="CalcVelo()" value="Calcular Velocidade">Calcular Velocidade</button>
+                <h2 id="velocidade1">A velocidade média é:</h2>
+                    
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div><a name="container2"></a></div>
+            <div class="container2">
+                <div class="titulo1"><h1>Função MUV</h1></div>
+                <input type="number" name="inicial" id="inicial" placeholder="Insira a velocidade inicial">
+                <h2><img src="img/f3.png"></h2>
+                <input type="number" name="aceleracao2" id="aceleracao2" placeholder="Insira o valor da aceleração">
+                <h2><img src="img/f2.png"></h2>
+                <input type="number" name="tempo2" id="tempo2" placeholder="Insira o valor do tempo">
+                <button type="button" name="CalcAce" onclick="CalcAce()" value="Calcular Velocidade">Calcular Velocidade</button>
+                <h2 id="velocidade2">A velocidade final é:</h2>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div><a name="container3"></a></div>
+            <div class="container3">
+                <div class="titulo2"><h1>Equação de Torricelli</h1></div>
+                <input type="number" name="veloinicial" id="veloinicial" placeholder="Insira a velocidade incial">
+                <h3 id="valor"></h3>
+                <h2></h2>
+                <h3 id="valor"></h3>
+                <input type="number" name="aceleracao3" id="aceleracao3" placeholder="Insira o valor da aceleração">
+                <h2></h2>
+                <input type="number" name="tempo3" id="tempo3" placeholder="Insira o valor do tempo">
+                <button type="button" name="Calcini" onclick="Calcini()" value="Calcular Velocidade">Calcular Velocidade</button>
+                <h2 id="velocidade3">A velocidade final é:</h2>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+ 
+            <div><a name="titulo2"></a></div>
+            <div class="container4">
+                <div class="titulo2"><h1>Consulte aqui as formulas</h1></div>
+                <h2>Velocidade Média:</h2>
+                <h3>(Velocidade Média = Distancia / Tempo)</h3>
+                <br>
+                <br>
+                <br>
+                <h2>Função MUV:</h2>
+                <h3>(Velocidade Final = Velocidade Inicial +(Aceleração * Tempo))</h3>
+                <br>
+                <br>
+                <br>
+                <h2>Equação de Torricelli:</h2>
+                <h3>(Velocidade Final ^2 = Velocidade Inicial ^2 + (2 * Aceleração * Tempo))</h3>
+                <h3></h3>
+            </div>
+            
+           
+
+            <div id="rodape">
+                <footer>
+                    <h1>Feito por:</h1>
+                    <h2>Fábio Vinicius Santos de Freitas  1DSI3</h2>
+                </footer>
+            </div>
+           
+           
+	</body>
+</html>

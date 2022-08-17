@@ -1,0 +1,46 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 1400px;
+    background-image: url(img/jgd.jpg);
+    background-repeat: no-repeat;: 
+}
+
+#rodape{
+    height: 200%;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    bottom: 0;
+}
+
+table,th,td{
+    border:1px 
+    solid blue;
+    border-collapse: collapse;
+}
+            
+th,td{
+    padding: 10px;
+}
+            
+th{
+    background-color: green;
+    color: white;
+}
+          
+*{
+    font-family: Arial;
+}
+
+table tr: nth-child(odd){
+    background-color: #ddd;
+} 
+ 
+table tr: nth-child (even){
+    background-color: white;
+}
