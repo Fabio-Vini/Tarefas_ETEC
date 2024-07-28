@@ -1,2 +1,2 @@
 # Tarefas_ETEC
-Repositório de sites e projetos realizados como exercícios na ETEC.
+Tasks carried out in class during the first module of the technical course
